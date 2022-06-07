@@ -1,5 +1,7 @@
 import Portfolio from './Portfolio.js';
 import './App.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
+
 
 function App() {
   return (
