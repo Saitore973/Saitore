@@ -1,0 +1,63 @@
+.portfolio{
+    color: red !important;
+    
+}
+
+ul li{
+   
+    color: white;
+    padding: 15px;
+}
+
+.active{
+    display: inline-block;
+    position: relative;
+    color: #DFAD51;
+  }
+  
+  .active:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #DFAD51;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+  }
+  
+  .active:hover:after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+  }
+.home{
+    margin-left: 60px;
+}
+
+.socials{
+    margin-left: 690px;
+    
+}
+
+.resume{
+    margin-right: 50px;
+    padding: 7px 20px;
+    border: none;
+    border-radius: 15px;
+    background-color: #6F5437;
+    color: #DFAD51;
+}
+
+.logo:hover{
+    width: 120px;
+    transition: 2.9s;
+    transform: rotateY(360deg);
+}
+
+.nav-link:hover{
+    background-color: #6F5437;
+    transition: 2.9s;
+    transform: rotateY(360deg);
+}
