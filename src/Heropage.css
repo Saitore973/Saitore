@@ -1,0 +1,68 @@
+
+.heropage{
+    background-color: #212529;
+    color: white;
+    width: 100%;
+    padding-bottom: 54px;
+}
+
+.mine{
+    border: none;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    padding-left: 100px;
+    padding-top: 30px;
+    box-shadow: 5px 10px 24px 10px #6F5437;
+    padding-top: 50px;
+   
+}
+.mine:hover{
+    width: 600px;
+    transition: 2.9s;
+    transform: rotateY(360deg);
+}
+
+.intro{
+    padding-top: 250px;
+    font-size: 52px;
+    line-height: 80px;
+}
+
+button{
+    margin-right: 50px;
+    padding: 7px 20px;
+    border: none;
+    border-radius: 15px;
+    background-color: #6F5437;
+    color: #DFAD51;
+}
+
+
+.animate-charcter
+{
+   text-transform: uppercase;
+  background-image: linear-gradient(
+    -225deg,
+    #1E3051 0%,
+    #6CB5E5 29%,
+    #DFAD51 67%,
+    #6F5437 100%
+  );
+  background-size: auto auto;
+  background-clip: border-box;
+  background-size: 200% auto;
+  color: #fff;
+  background-clip: text;
+  -text-fill-color: transparent;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: textclip 2s linear infinite;
+  display: inline-block;
+      font-size: 80px;
+}
+
+@keyframes textclip {
+  to {
+    background-position: 200% center;
+  }
+}
